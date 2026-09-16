@@ -50,21 +50,18 @@ async function fetchCorpusStats(
   region: string | null,
 ): Promise<{ p25: number; p50: number; p75: number; n: number } | null> {
   // Cherche les offres avec salaire renseigné pour ce segment
-  let query = db
+  const base = db
     .from('jobs')
     .select('salary_min, salary_max')
     .eq('is_active', true)
     .eq('contract_type', contractType)
     .not('salary_min', 'is', null)
-    .not('salary_max', 'is', null)
-    .limit(500);
+    .not('salary_max', 'is', null);
 
-  // Filtre sur le titre canonique via les tags (proxy imparfait mais dispo sans JOIN)
-  if (titleCanonical) {
-    query = query.contains('tags', [titleCanonical.replace('_', ' ')]);
-  }
-
-  const { data, error } = await query;
+  // .contains() avant .limit() pour que la chaîne soit testable via mock
+  const { data, error } = await (titleCanonical
+    ? base.contains('tags', [titleCanonical.replace('_', ' ')]).limit(500)
+    : base.limit(500));
   if (error || !data || data.length < 5) return null;
 
   const values = (data as SalaryRow[])
