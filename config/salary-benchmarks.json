@@ -1,0 +1,162 @@
+{
+  "_meta": {
+    "description": "Grille de référence salariale marché France — source : Baromètre SalaireTech / enquêtes Comet, APEC, StackOverflow Survey 2024-2025.",
+    "label_display": "Estimation grille de marché (source : SalaireTech/Comet 2024-2025)",
+    "currency": "EUR",
+    "salary_period_cdi": "yearly",
+    "salary_period_freelance": "daily",
+    "note": "Valeurs brutes annuelles (CDI) ou TJM brut (freelance). Fourchettes p25/p50/p75. Ajustement géographique via geo_multipliers.",
+    "confidence_benchmark": 0.40
+  },
+
+  "geo_multipliers": {
+    "paris": 1.10,
+    "île-de-france": 1.08,
+    "ile-de-france": 1.08,
+    "idf": 1.08,
+    "hauts-de-seine": 1.08,
+    "lyon": 1.00,
+    "bordeaux": 0.97,
+    "nantes": 0.97,
+    "toulouse": 0.97,
+    "lille": 0.95,
+    "marseille": 0.93,
+    "strasbourg": 0.95,
+    "rennes": 0.95,
+    "montpellier": 0.93,
+    "sophia antipolis": 0.98,
+    "grenoble": 0.96,
+    "nice": 0.94,
+    "remote": 1.00,
+    "worldwide remote": 1.00,
+    "default": 0.92
+  },
+
+  "cdi": {
+    "data_engineer": {
+      "junior":    { "p25": 38000, "p50": 43000, "p75": 49000 },
+      "confirmed": { "p25": 48000, "p50": 55000, "p75": 63000 },
+      "senior":    { "p25": 60000, "p50": 68000, "p75": 80000 },
+      "lead":      { "p25": 70000, "p50": 80000, "p75": 95000 },
+      "staff":     { "p25": 80000, "p50": 92000, "p75": 110000 }
+    },
+    "data_analyst": {
+      "junior":    { "p25": 32000, "p50": 37000, "p75": 43000 },
+      "confirmed": { "p25": 38000, "p50": 45000, "p75": 53000 },
+      "senior":    { "p25": 48000, "p50": 57000, "p75": 67000 },
+      "lead":      { "p25": 55000, "p50": 64000, "p75": 75000 }
+    },
+    "analytics_engineer": {
+      "junior":    { "p25": 38000, "p50": 43000, "p75": 50000 },
+      "confirmed": { "p25": 47000, "p50": 54000, "p75": 63000 },
+      "senior":    { "p25": 58000, "p50": 67000, "p75": 78000 },
+      "lead":      { "p25": 68000, "p50": 78000, "p75": 90000 }
+    },
+    "data_scientist": {
+      "junior":    { "p25": 40000, "p50": 46000, "p75": 53000 },
+      "confirmed": { "p25": 50000, "p50": 58000, "p75": 68000 },
+      "senior":    { "p25": 62000, "p50": 73000, "p75": 88000 },
+      "lead":      { "p25": 75000, "p50": 88000, "p75": 105000 }
+    },
+    "ml_engineer": {
+      "junior":    { "p25": 42000, "p50": 48000, "p75": 56000 },
+      "confirmed": { "p25": 52000, "p50": 61000, "p75": 73000 },
+      "senior":    { "p25": 68000, "p50": 80000, "p75": 98000 },
+      "lead":      { "p25": 82000, "p50": 96000, "p75": 115000 }
+    },
+    "ai_engineer": {
+      "confirmed": { "p25": 55000, "p50": 65000, "p75": 78000 },
+      "senior":    { "p25": 72000, "p50": 85000, "p75": 102000 },
+      "lead":      { "p25": 88000, "p50": 102000, "p75": 120000 }
+    },
+    "frontend_developer": {
+      "junior":    { "p25": 32000, "p50": 37000, "p75": 42000 },
+      "confirmed": { "p25": 42000, "p50": 49000, "p75": 57000 },
+      "senior":    { "p25": 52000, "p50": 61000, "p75": 72000 },
+      "lead":      { "p25": 62000, "p50": 72000, "p75": 85000 }
+    },
+    "backend_developer": {
+      "junior":    { "p25": 35000, "p50": 40000, "p75": 46000 },
+      "confirmed": { "p25": 44000, "p50": 52000, "p75": 61000 },
+      "senior":    { "p25": 56000, "p50": 66000, "p75": 78000 },
+      "lead":      { "p25": 66000, "p50": 77000, "p75": 91000 }
+    },
+    "fullstack_developer": {
+      "junior":    { "p25": 33000, "p50": 38000, "p75": 44000 },
+      "confirmed": { "p25": 43000, "p50": 50000, "p75": 59000 },
+      "senior":    { "p25": 54000, "p50": 63000, "p75": 75000 },
+      "lead":      { "p25": 64000, "p50": 74000, "p75": 88000 }
+    },
+    "devops_engineer": {
+      "junior":    { "p25": 37000, "p50": 43000, "p75": 50000 },
+      "confirmed": { "p25": 47000, "p50": 55000, "p75": 65000 },
+      "senior":    { "p25": 60000, "p50": 70000, "p75": 84000 },
+      "lead":      { "p25": 72000, "p50": 83000, "p75": 98000 }
+    },
+    "software_engineer": {
+      "junior":    { "p25": 34000, "p50": 39000, "p75": 45000 },
+      "confirmed": { "p25": 44000, "p50": 51000, "p75": 60000 },
+      "senior":    { "p25": 56000, "p50": 65000, "p75": 77000 },
+      "lead":      { "p25": 66000, "p50": 77000, "p75": 91000 }
+    },
+    "tech_lead": {
+      "confirmed": { "p25": 60000, "p50": 70000, "p75": 83000 },
+      "senior":    { "p25": 72000, "p50": 84000, "p75": 100000 },
+      "lead":      { "p25": 82000, "p50": 96000, "p75": 115000 }
+    }
+  },
+
+  "freelance": {
+    "data_engineer": {
+      "junior":    { "p25": 350, "p50": 420, "p75": 500 },
+      "confirmed": { "p25": 480, "p50": 560, "p75": 650 },
+      "senior":    { "p25": 600, "p50": 700, "p75": 850 },
+      "lead":      { "p25": 700, "p50": 820, "p75": 980 }
+    },
+    "data_analyst": {
+      "junior":    { "p25": 280, "p50": 340, "p75": 410 },
+      "confirmed": { "p25": 350, "p50": 420, "p75": 500 },
+      "senior":    { "p25": 480, "p50": 560, "p75": 650 }
+    },
+    "analytics_engineer": {
+      "confirmed": { "p25": 450, "p50": 530, "p75": 620 },
+      "senior":    { "p25": 580, "p50": 660, "p75": 780 }
+    },
+    "data_scientist": {
+      "junior":    { "p25": 380, "p50": 450, "p75": 530 },
+      "confirmed": { "p25": 500, "p50": 580, "p75": 680 },
+      "senior":    { "p25": 630, "p50": 730, "p75": 880 }
+    },
+    "ml_engineer": {
+      "confirmed": { "p25": 520, "p50": 600, "p75": 720 },
+      "senior":    { "p25": 680, "p50": 780, "p75": 950 }
+    },
+    "ai_engineer": {
+      "confirmed": { "p25": 600, "p50": 700, "p75": 850 },
+      "senior":    { "p25": 750, "p50": 880, "p75": 1050 }
+    },
+    "frontend_developer": {
+      "junior":    { "p25": 280, "p50": 340, "p75": 400 },
+      "confirmed": { "p25": 380, "p50": 450, "p75": 530 },
+      "senior":    { "p25": 500, "p50": 580, "p75": 680 }
+    },
+    "backend_developer": {
+      "junior":    { "p25": 300, "p50": 360, "p75": 430 },
+      "confirmed": { "p25": 400, "p50": 470, "p75": 560 },
+      "senior":    { "p25": 520, "p50": 610, "p75": 720 }
+    },
+    "fullstack_developer": {
+      "junior":    { "p25": 290, "p50": 350, "p75": 420 },
+      "confirmed": { "p25": 390, "p50": 460, "p75": 550 },
+      "senior":    { "p25": 510, "p50": 600, "p75": 710 }
+    },
+    "devops_engineer": {
+      "confirmed": { "p25": 450, "p50": 530, "p75": 630 },
+      "senior":    { "p25": 580, "p50": 680, "p75": 820 }
+    },
+    "software_engineer": {
+      "confirmed": { "p25": 380, "p50": 450, "p75": 540 },
+      "senior":    { "p25": 500, "p50": 590, "p75": 700 }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "description": "Mapping intitulés bruts → slug canonique. Ajouter les variantes en minuscules sans accents.",
+    "canonical_values": [
+      "data_engineer", "data_analyst", "analytics_engineer", "data_scientist",
+      "ml_engineer", "ai_engineer", "data_architect", "data_manager",
+      "frontend_developer", "backend_developer", "fullstack_developer",
+      "mobile_developer", "devops_engineer", "cloud_architect", "sre",
+      "software_engineer", "tech_lead", "engineering_manager",
+      "product_manager", "scrum_master", "qa_engineer", "security_engineer",
+      "bi_developer", "etl_developer", "database_administrator"
+    ]
+  },
+
+  "data_engineer": [
+    "data engineer", "data engineer h/f", "data engineer f/h", "data engineer h-f",
+    "data engineer (h/f)", "data engineer - h/f", "ingenieur data", "ingénieur data",
+    "data engineering", "dev data", "développeur data", "engineer data",
+    "ingénieur en données", "ingenieur en donnees", "data pipeline engineer",
+    "données engineer", "data platform engineer", "data infrastructure engineer",
+    "data software engineer", "big data engineer", "big data developer",
+    "developpeur big data", "développeur big data", "architecte data",
+    "databricks engineer", "spark engineer", "kafka engineer",
+    "data backend engineer", "ingenieur bi", "ingénieur bi",
+    "ingénieur données", "senior data engineer", "lead data engineer",
+    "staff data engineer", "principal data engineer"
+  ],
+
+  "data_analyst": [
+    "data analyst", "data analyst h/f", "analyste de données", "analyste donnees",
+    "business analyst data", "data analyst bi", "junior data analyst",
+    "analyst data", "analyst bi", "bi analyst", "reporting analyst",
+    "growth analyst", "marketing analyst", "product analyst",
+    "analyste bi", "analyste business intelligence", "analyste reporting",
+    "data insights analyst", "web analyst", "digital analyst",
+    "analyste données", "chargé de reporting", "analyste crm",
+    "analyst marketing", "revenue analyst", "finance analyst data"
+  ],
+
+  "analytics_engineer": [
+    "analytics engineer", "analytics engineer h/f", "ingenieur analytique",
+    "dbt engineer", "dbt developer", "analytics software engineer",
+    "data analytics engineer", "ingénieur analytics", "bi engineer",
+    "business intelligence engineer", "data transformation engineer"
+  ],
+
+  "data_scientist": [
+    "data scientist", "data scientist h/f", "data science", "scientifique des données",
+    "senior data scientist", "lead data scientist", "research scientist",
+    "applied scientist", "research engineer", "scientist data",
+    "data science engineer", "statistician", "statisticien",
+    "quantitative analyst", "quant", "actuaire data"
+  ],
+
+  "ml_engineer": [
+    "ml engineer", "machine learning engineer", "machine learning h/f",
+    "ingenieur machine learning", "ingénieur machine learning",
+    "mlops engineer", "mlops", "ml platform engineer",
+    "ml infrastructure engineer", "ai ml engineer",
+    "deep learning engineer", "nlp engineer", "computer vision engineer",
+    "ml scientist", "applied ml engineer", "research ml engineer",
+    "ingénieur ia", "ingenieur ia"
+  ],
+
+  "ai_engineer": [
+    "ai engineer", "llm engineer", "generative ai engineer",
+    "ai software engineer", "prompt engineer", "ai product engineer",
+    "ingénieur ia générative", "llm developer", "genai engineer",
+    "rag engineer", "ai backend engineer"
+  ],
+
+  "frontend_developer": [
+    "frontend developer", "front-end developer", "front end developer",
+    "developpeur frontend", "développeur frontend", "développeur front-end",
+    "développeur front", "dev frontend", "développeur react",
+    "react developer", "react.js developer", "react engineer",
+    "vue developer", "angular developer", "ui developer",
+    "javascript developer", "typescript developer",
+    "ingénieur frontend", "ingenieur frontend",
+    "frontend engineer", "web developer frontend"
+  ],
+
+  "backend_developer": [
+    "backend developer", "back-end developer", "back end developer",
+    "developpeur backend", "développeur backend", "développeur back-end",
+    "développeur back", "dev backend", "développeur python",
+    "python developer", "python engineer", "java developer", "java engineer",
+    "nodejs developer", "node.js developer", "go developer", "golang developer",
+    "scala developer", "ruby developer", "php developer",
+    "api developer", "ingénieur backend", "backend engineer",
+    "software engineer backend"
+  ],
+
+  "fullstack_developer": [
+    "fullstack developer", "full-stack developer", "full stack developer",
+    "développeur fullstack", "dev fullstack", "développeur full stack",
+    "développeur full-stack", "fullstack engineer",
+    "ingénieur fullstack", "développeur web fullstack",
+    "software engineer fullstack", "web developer"
+  ],
+
+  "devops_engineer": [
+    "devops engineer", "devops", "dev ops", "cloud engineer",
+    "ingenieur devops", "ingénieur devops", "devops developer",
+    "site reliability engineer", "sre", "platform engineer",
+    "infrastructure engineer", "ingenieur cloud", "ingénieur cloud",
+    "cloud & devops", "devops cloud engineer", "ops engineer",
+    "system administrator", "sysadmin", "cloud architect",
+    "ingenieur infrastructure", "ingénieur infrastructure",
+    "devops lead", "lead devops", "senior devops"
+  ],
+
+  "software_engineer": [
+    "software engineer", "software developer", "développeur logiciel",
+    "developpeur logiciel", "ingénieur logiciel", "ingenieur logiciel",
+    "ingénieur développement", "développeur applicatif",
+    "engineer software", "ingenieur developpement"
+  ],
+
+  "tech_lead": [
+    "tech lead", "technical lead", "lead developer", "lead développeur",
+    "lead dev", "lead engineer", "engineering lead", "staff engineer",
+    "principal engineer", "architecte logiciel", "software architect",
+    "architecte technique", "tech leader"
+  ],
+
+  "product_manager": [
+    "product manager", "chef de produit", "product owner", "po",
+    "pm", "senior product manager", "lead product manager",
+    "product manager data", "data product manager",
+    "technical product manager", "head of product"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "description": "Dictionnaire étendu de technologies pour l'extraction de stack depuis les descriptions d'offres",
+    "format": "Chaque catégorie contient les variantes acceptées (lowercase). La valeur canonique est la première entrée."
+  },
+
+  "languages": [
+    "python", "javascript", "typescript", "java", "scala", "go", "golang",
+    "rust", "c++", "cpp", "c#", "csharp", "ruby", "php", "swift", "kotlin",
+    "r", "julia", "bash", "shell", "perl", "haskell", "elixir", "clojure",
+    "groovy", "dart", "lua", "f#", "ocaml", "cobol"
+  ],
+
+  "data_orchestration": [
+    "dbt", "airflow", "apache airflow", "prefect", "dagster", "luigi",
+    "great expectations", "dvc", "mlflow", "kedro", "metaflow", "zenml",
+    "mage", "mage.ai", "kestra"
+  ],
+
+  "data_warehouses": [
+    "snowflake", "bigquery", "google bigquery", "redshift", "amazon redshift",
+    "databricks", "azure synapse", "synapse analytics", "clickhouse", "duckdb",
+    "firebolt", "teradata", "vertica", "starburst", "trino", "presto",
+    "singlestore", "greenplum", "netezza"
+  ],
+
+  "data_viz": [
+    "tableau", "power bi", "powerbi", "microsoft power bi", "metabase",
+    "looker", "looker studio", "google data studio", "grafana", "superset",
+    "apache superset", "domo", "qlik", "qliksense", "qlikview",
+    "thoughtspot", "mode", "sigma", "hex", "evidence"
+  ],
+
+  "databases": [
+    "postgresql", "postgres", "mysql", "mariadb", "mongodb", "cassandra",
+    "redis", "elasticsearch", "opensearch", "neo4j", "dynamodb", "cosmosdb",
+    "sqlite", "oracle", "sql server", "mssql", "couchdb", "influxdb",
+    "timescaledb", "cockroachdb", "planetscale", "supabase"
+  ],
+
+  "cloud_providers": [
+    "aws", "amazon web services", "gcp", "google cloud platform", "google cloud",
+    "azure", "microsoft azure", "ovhcloud", "ovh", "scaleway", "clever cloud",
+    "alibaba cloud", "oracle cloud", "digitalocean", "fly.io"
+  ],
+
+  "cloud_services": [
+    "s3", "ec2", "lambda", "rds", "emr", "glue", "aws glue", "ecs",
+    "eks", "sagemaker", "vertex ai", "dataflow", "cloud run", "cloud functions",
+    "pubsub", "bigquery", "azure databricks", "azure devops", "cloud storage",
+    "eventbridge", "kinesis", "sns", "sqs", "cloudformation", "terraform cloud"
+  ],
+
+  "streaming": [
+    "kafka", "apache kafka", "spark", "apache spark", "spark streaming",
+    "flink", "apache flink", "kinesis", "pubsub", "rabbitmq", "activemq",
+    "nats", "pulsar", "apache pulsar", "debezium", "kafka connect",
+    "confluent", "confluent platform"
+  ],
+
+  "ml_ai": [
+    "tensorflow", "pytorch", "scikit-learn", "sklearn", "keras",
+    "hugging face", "huggingface", "transformers", "langchain", "llamaindex",
+    "llm", "large language model", "nlp", "natural language processing",
+    "deep learning", "machine learning", "computer vision", "reinforcement learning",
+    "rag", "retrieval augmented generation", "openai", "anthropic",
+    "stable diffusion", "diffusion models", "xgboost", "lightgbm", "catboost",
+    "pandas", "numpy", "scipy", "matplotlib", "seaborn", "plotly",
+    "fastai", "jax", "flax", "onnx", "triton", "vllm"
+  ],
+
+  "frontend": [
+    "react", "react.js", "vue", "vue.js", "angular", "next.js", "nextjs",
+    "nuxt", "nuxt.js", "svelte", "sveltekit", "remix", "astro",
+    "tailwind", "tailwindcss", "css", "sass", "scss", "html",
+    "webpack", "vite", "rollup", "parcel", "esbuild",
+    "redux", "zustand", "recoil", "react query", "tanstack query",
+    "storybook", "cypress", "playwright", "jest", "vitest"
+  ],
+
+  "backend": [
+    "node.js", "nodejs", "express", "fastapi", "django", "flask",
+    "spring", "spring boot", "laravel", "rails", "ruby on rails",
+    "nestjs", "nest.js", "gin", "fiber", "fastify", "hapi",
+    "graphql", "rest api", "grpc", "websocket", "api rest",
+    "sqlalchemy", "prisma", "typeorm", "hibernate", "jpa"
+  ],
+
+  "devops_infra": [
+    "docker", "kubernetes", "k8s", "terraform", "ansible", "puppet", "chef",
+    "jenkins", "gitlab ci", "github actions", "circleci", "travis ci",
+    "argocd", "flux", "helm", "istio", "envoy", "nginx", "traefik",
+    "prometheus", "grafana", "datadog", "new relic", "dynatrace",
+    "pagerduty", "opsgenie", "elk", "elasticsearch kibana",
+    "vault", "consul", "nomad", "pulumi", "crossplane"
+  ],
+
+  "methodology": [
+    "agile", "scrum", "kanban", "safe", "lean", "xp",
+    "tdd", "bdd", "ddd", "domain driven design", "cqrs", "event sourcing",
+    "microservices", "event-driven", "hexagonal architecture", "clean architecture",
+    "ci/cd", "gitops", "devops", "sre", "platform engineering"
+  ]
+}
